@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF267E951FC09AD2005DB58D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF267E941FC09AD2005DB58D /* main.cpp */; };
+		BF267E951FC09AD2005DB58D /* cs340project6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF267E941FC09AD2005DB58D /* cs340project6.cpp */; };
+		BF267E9D1FC0AA2A005DB58D /* SequenceAlignment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF267E9B1FC0AA2A005DB58D /* SequenceAlignment.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		BF267E911FC09AD2005DB58D /* cs340project6 (optimal sequence alignment) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs340project6 (optimal sequence alignment)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF267E941FC09AD2005DB58D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF267E941FC09AD2005DB58D /* cs340project6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cs340project6.cpp; sourceTree = "<group>"; };
+		BF267E9B1FC0AA2A005DB58D /* SequenceAlignment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SequenceAlignment.cpp; sourceTree = "<group>"; };
+		BF267E9C1FC0AA2A005DB58D /* SequenceAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceAlignment.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		BF267E931FC09AD2005DB58D /* cs340project6 (optimal sequence alignment) */ = {
 			isa = PBXGroup;
 			children = (
-				BF267E941FC09AD2005DB58D /* main.cpp */,
+				BF267E941FC09AD2005DB58D /* cs340project6.cpp */,
+				BF267E9B1FC0AA2A005DB58D /* SequenceAlignment.cpp */,
+				BF267E9C1FC0AA2A005DB58D /* SequenceAlignment.h */,
 			);
 			path = "cs340project6 (optimal sequence alignment)";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF267E951FC09AD2005DB58D /* main.cpp in Sources */,
+				BF267E9D1FC0AA2A005DB58D /* SequenceAlignment.cpp in Sources */,
+				BF267E951FC09AD2005DB58D /* cs340project6.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
